@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 230, 230);
+}
+
+.boton{
+  background-color: aliceblue;
+  border-radius: 25px;
+  width: 80px;
+  cursor:pointer;
+}
+
+.ingresar_dato{
+  position: relative;
+  left: 25px;
+}
+
+.boton:hover{
+  background-color: rgb(224, 218, 218);
+}

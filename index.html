@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <link rel="stylesheet" href="./css/chartist.min.css" />
+    <title>Formulario_grafico</title>
+  </head>
+  <body>
+    <h1>Formulario que integre una librería para realizar gráficos</h1>
+    <br />
+    <h3>Datos de Población Estudiantil</h3>
+      <form id="form">
+        
+          <div class=input-group>
+              <label>Organismos Acad. Comunes: </label>
+              <input type="text" placeholder="" id="Datos1"/>
+          </div>
+          <br>
+          <div class=input-group>
+              <label>Grado y Tenico superior: </label>
+              <input class="ingresar_dato" type="text" placeholder="" id="Datos2"/>
+          </div>
+          <br>
+          <input class="boton" type="submit" value="Enviar" id="enviar"/>
+      </form>
+    <h3>Grafico de Población Estudiantil</h3>
+    <div id="student" style="width: 80%"></div>
+    
+
+    <script src="./js/funcions.js"></script>
+    <script src="./js/chartist.min.js"></script>
+  </body>
+</html>
